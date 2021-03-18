@@ -3,6 +3,7 @@ import './assets/css/App.css';
 
 // Importo mis componentes
 
+import Header from './components/Header';
 import MiComponente from './components/MiComponente';
 import Peliculas from './components/Peliculas';
 
@@ -23,14 +24,14 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p class="color">
           {HolaMundo(nombre,edad)}
         </p>
 
         <section className="componentes">
-
+          
           <MiComponente/>
           <Peliculas/>
 
