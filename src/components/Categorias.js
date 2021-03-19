@@ -18,7 +18,7 @@ class SideBar extends Component{
         return(
 
             <div className="categorias">
-                <h4 className="color-pink">Actividades actuales</h4>
+                <h4 className="color-light-blue text-left">Actividades actuales</h4>
                 <div className="media">
 
                     <div className="categoria">

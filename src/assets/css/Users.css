@@ -1,6 +1,6 @@
 .users{
     padding: 10px;
-    margin: 10;
+    margin: 10px 25px 0px 25px;
     position: sticky;
 }
 
@@ -24,9 +24,20 @@
     
 }
 
+.u-info-user:hover{
+    width: 60%;
+    transition: all 250ms;
+}
+
 .user{
     position: relative;
-    margin: 32px;
+    margin: 6px 15px 6px 6px;
+}
+
+.user:hover{
+    border: 10px solid transparent;
+    transition: all 200ms;
+    border-radius: 20px;
 }
 
 .overlay{
