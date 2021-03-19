@@ -1,0 +1,39 @@
+.users{
+    padding: 10px;
+    margin: 10;
+    position: sticky;
+}
+
+.u-img{
+    width: 400px; 
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid #514697;
+    /* border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, #514697 0%, #C377AF 100%) 1; */
+}
+
+.u-info-user{
+    padding-top: 5px;
+    border-radius: 0px 20px 20px 0px;
+    text-align: left;
+    width: 35%;
+    background-color: grey;
+    background-color: rgba(195,119,175,0.5);
+    
+}
+
+.user{
+    position: relative;
+    margin: 32px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 10px;
+    border-radius: 0px 20px 20px 0px;
+}

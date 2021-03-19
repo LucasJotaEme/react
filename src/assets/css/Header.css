@@ -2,12 +2,14 @@
     background-image: linear-gradient(to right,#514697,#204C7A ,#514697);
     position: sticky;
     top: 0px;
+    box-shadow: 1px 1px 5px -2px black;
 }
 
 body{
     background-image: linear-gradient(to right,#204C7A)!important;
 }
 
-.logo-bg{
-    background-image: linear-gradient(to right,#204C7A);
+.b{
+    font-weight: 500 !important;
+    color: #BCE2F2 !important;
 }

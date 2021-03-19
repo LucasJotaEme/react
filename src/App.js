@@ -4,6 +4,8 @@ import './assets/css/App.css';
 // Importo mis componentes
 
 import Header from './components/Header';
+import Categorias from './components/Categorias';
+import Users from './components/Users';
 import MiComponente from './components/MiComponente';
 import Peliculas from './components/Peliculas';
 
@@ -24,20 +26,22 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <header className="App-header">
-        <p class="color">
-          {HolaMundo(nombre,edad)}
-        </p>
 
-        <section className="componentes">
+      <Header />
+      <Categorias />
+      <Users />
+      
+      <header className="App-header">
+
+        {/* <section className="componentes">
           
           <MiComponente/>
-          <Peliculas/>
 
-        </section>
+
+        </section> */}
         
       </header>
+      <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-search-pseudo-elements></script>
     </div>
   );
 }
