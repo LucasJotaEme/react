@@ -1,5 +1,5 @@
 .nav-bg{
-    background-image: linear-gradient(to right,#514697,#204C7A ,#514697);
+    background-image: linear-gradient(to right,#22a0d1,#BCE2F2 ,#F3B4BA);
     position: sticky;
     top: 0px;
     box-shadow: 1px 1px 5px -2px black;
@@ -12,4 +12,17 @@ body{
 .b{
     font-weight: 500 !important;
     color: #BCE2F2 !important;
+}
+
+.search{
+    border-radius: 40px 0px 0px 40px !important;
+    border:none !important;
+    background-color: #BCE2F2 !important;
+    min-width: 400px !important;
+}
+
+.search-btn{
+    border-radius: 0px 40px 40px 0px !important;
+    border: none !important;
+    background-color: #BCE2F2 !important;
 }

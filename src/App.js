@@ -1,5 +1,6 @@
 import logo from './assets/img/logo.svg';
 import './assets/css/App.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 // Importo mis componentes
 

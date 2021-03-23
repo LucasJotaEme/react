@@ -27,11 +27,12 @@ class Header extends Component{
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
 
                         <form class="d-flex">
-                            <div class="input-group rounded">
-                                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                            <div class="input-group">
+                                <input type="search" class="form-control search" placeholder="Buscar.." aria-label="Search"
                                     aria-describedby="search-addon" />
-                                <span class="input-group-text border-0" id="search-addon">
-                                    <i class="fas fa-search">Buscar</i>
+
+                                <span class="input-group-text search-btn" id="search-addon">
+                                    <i class="fa fa-search"></i>
                                 </span>
                             </div>
                         </form>

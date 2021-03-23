@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(to right,#514697,#204C7A ,#514697);
+  background-image: linear-gradient(to right,#22a0d1,#BCE2F2 ,#F3B4BA);
 }
 
 .App-logo {
@@ -8,19 +8,31 @@
 }
 
 .App-bg{
-  background-image: linear-gradient(to right,#514697,#204C7A ,#514697);
+  background-image: linear-gradient(to right,#22a0d1,#BCE2F2 ,#F3B4BA);
 }
 
 body{
-  background-image: linear-gradient(to right,#514697,#204C7A ,#514697);
+  background-image: linear-gradient(to right,#22a0d1,#BCE2F2 ,#F3B4BA);
 }
 
 .color-pink{
   color: #C377AF !important;
 }
 
+.color-purple{
+  color: #514697 !important;
+}
+
 .color-light-blue{
   color: #BCE2F2 !important;
+}
+
+.color-blue{
+  color: #204C7A !important;
+}
+
+.color-light{
+  color: #008AC0 !important;
 }
 
 /* ********* */

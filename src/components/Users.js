@@ -18,7 +18,8 @@ class Users extends Component{
         return(
 
             <div className="users">
-                <h4 className="color-light-blue text-left">Personas</h4>
+                
+                <h4 className="color-blue text-left">Personas</h4>
 
                 <div className="media">
                     
@@ -27,6 +28,7 @@ class Users extends Component{
                         <img className="u-img" src={imgXenia}/>
 
                         <div className="u-info-user overlay">
+
                             <a className="color-light-blue f-description" href="#">
                                 <h2>xenia_ua</h2>
                             </a>
