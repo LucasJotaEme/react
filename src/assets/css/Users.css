@@ -16,17 +16,17 @@
 
 .u-info-user{
     padding-top: 5px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 20px 20px 20px 20px;
     text-align: left;
-    width: 35%;
-    background-color: grey;
-    background-color: rgba(195,119,175,0.5);
+    width: 60%;
+    background-image: linear-gradient(to right,rgba(81,70,151,0.6),rgba(255,255,255,0)) ;
     
 }
 
 .u-info-user:hover{
-    width: 60%;
-    transition: all 250ms;
+    width: 100%;
+    transition: all 50ms;
+    background-image: linear-gradient(to right,rgba(81,70,151,0.9),rgba(81,70,151,0.1)) ;
 }
 
 .user{
@@ -35,7 +35,8 @@
 }
 
 .user:hover{
-    border: 10px solid transparent;
+    border-bottom: 20px solid transparent;
+    bottom: 10px;
     transition: all 200ms;
     border-radius: 20px;
 }
@@ -43,8 +44,8 @@
 .overlay{
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     bottom: 0;
     padding-left: 10px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 20px 0px 0px 20px;
 }

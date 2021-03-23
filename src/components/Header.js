@@ -18,7 +18,7 @@ class Header extends Component{
 
                     {/* Logo */}
                     <a className="navbar-brand" href="#">
-                        <img src={logo} width="60"  className="d-inline-block align-top App-logo" alt="logo" />
+                        <img src={logo} width="80"  className="d-inline-block align-top App-logo" alt="logo" />
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
